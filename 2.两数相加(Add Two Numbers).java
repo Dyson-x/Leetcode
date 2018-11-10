@@ -30,7 +30,7 @@ class Solution {
             }
         //当两个链表不为空或者还存在进位时，循环继续
         }while(l1!=null||l2!=null||cur!=0);
-        //返回头结点
+        //返回头结点 
         return head;
     }
 }  
