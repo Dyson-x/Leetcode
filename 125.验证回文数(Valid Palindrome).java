@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public boolean isPalindrome(String s) {
         //当字符串为空或者只有一个字符时，返回true
         if(s.length()==0||s.length()==1){
