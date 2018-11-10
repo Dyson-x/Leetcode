@@ -3,7 +3,7 @@ class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.length()==0){
             return 0;
-        }
+        } 
         char[] hay=haystack.toCharArray();
         char[] nee=needle.toCharArray();
         int len1=hay.length,len2=nee.length;
