@@ -15,7 +15,7 @@ class Solution {
         do{
             //计算位数之和
             int num=(l1!=null?l1.val:0)+(l2!=null?l2.val:0)+cur;
-            //计算余数
+            //计算余数，当前链表要存储的数值
             int digit=num%10;
             //计算进位
             cur=num/10;
