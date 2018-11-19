@@ -1,4 +1,4 @@
-排序后取中位数
+排序后取中位数，因为众数的数量大于数组总数量的一半
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
