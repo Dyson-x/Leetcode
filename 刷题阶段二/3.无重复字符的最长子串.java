@@ -12,6 +12,8 @@ public class lengthOfLongestSubstring_3 {
     public static int test(String s) {
         HashMap<Character, Integer> hashMap = new HashMap<>();
         //flag记录的是无重复子串的起始位置，ret为最长无重复子串长度
+        //由于HashMap的Key是不允许重复的，所以每当有重复的字符存到map中去就会更新Kay所对应的value
+        //HashMap是以Key-Value进行存储的，插入与查找的时间复杂度都是O(1)的，而底层数据结构是红黑树+数组——链表实现的
         int flag = -1, ret = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
